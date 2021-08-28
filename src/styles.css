@@ -1,0 +1,52 @@
+body {
+	background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.firstgradient {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 50px;
+	background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+	padding: 50px;
+	border-radius: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	color: #fcae1e;
+}
+
+.col-4 {
+	color: #f984ef;
+	font-size: 20px;
+}
+
+.col {
+	color: #00e0ea;
+	font-size: 18px;
+}
+
+.credit {
+	font-size: 15px;
+}
+
+.profile {
+	text-decoration: none;
+}
+
+.profile:hover {
+	text-decoration: underline;
+	transition: all 200ms ease-in-out;
+}
+
+.code-source {
+	text-decoration: none;
+}
+
+.code-source:hover {
+	text-decoration: underline;
+	transition: all 200ms ease-in-out;
+}
