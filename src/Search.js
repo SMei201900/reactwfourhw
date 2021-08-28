@@ -46,20 +46,20 @@ export default function Search() {
 				{form}
 				<h2>{city}</h2>
 
-				<div class="row">
-					<div class="col-4 time-and-date">Time and Date</div>
-					<div class="col-4">
-						<div class="theweather">{description}</div>
+				<div className="row">
+					<div className="col-4 time-and-date">Time and Date</div>
+					<div className="col-4">
+						<div> {description}</div>
 						<div class="clearfix">
 							<img src={icon} />
 						</div>
-						<span class="tempdigits">{temp}</span>
-						<a class="ren-to-cel" href="#">
+						<span>{temp}</span>
+						<a className="ren-to-cel" href="#">
 							{" "}
 							°C
 						</a>
 						|
-						<a class="cel-to-ren" href="#">
+						<a className="cel-to-ren" href="#">
 							{" "}
 							°F
 						</a>

@@ -21,7 +21,7 @@ export default function Credits() {
 					Sally Mei{" "}
 				</a>
 				and
-				<a href="/" target="_blank">
+				<a href="https://adoring-snyder-f3b61d.netlify.app/" target="_blank">
 					{" "}
 					hosted by Netlify
 				</a>
